@@ -4,6 +4,7 @@
 #include <vector>
 #include <iterator>
 #include "SurveyClass.h"
+
 using namespace std;
 
 template <class Container>
@@ -86,3 +87,4 @@ int main(int argc, char* argv[]) {
 
     return 0;
 }
+

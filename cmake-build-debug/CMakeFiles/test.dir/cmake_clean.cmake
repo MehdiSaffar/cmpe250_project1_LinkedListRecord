@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/test.dir/Node.cpp.o"
+  "CMakeFiles/test.dir/LinkedList.cpp.o"
+  "CMakeFiles/test.dir/SurveyClass.cpp.o"
+  "CMakeFiles/test.dir/test_example.cpp.o"
+  "test.pdb"
+  "test"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/test.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
