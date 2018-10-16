@@ -99,22 +99,47 @@ void copy_operator_works() {
     first.pushTail("a", 1);
     LinkedList second(first);
     // first still exists
-    TEST_CHECK(first.head->name == "a");
-    TEST_CHECK(first.head->amount == 1);
-    TEST_CHECK(first.tail->name == "a");
-    TEST_CHECK(first.tail->amount == 1);
+    TEST_CHECK(second.head->name == "a");
+    TEST_CHECK(second.head->amount == 1);
+    TEST_CHECK(second.tail->name == "a");
+    TEST_CHECK(second.tail->amount == 1);
     // not same address
     TEST_CHECK(&first != &second);
 
 }
 
 void copy_operator_works_empty_list() {
+//    cerr << "Copy operator works empty list" << endl;
     LinkedList first;
     LinkedList second(first);
     // first still exists
-    TEST_CHECK(first.head == nullptr);
-    TEST_CHECK(first.tail == nullptr);
-    TEST_CHECK(first.length == 0);
+    TEST_CHECK(second.head == nullptr);
+    TEST_CHECK(second.tail == nullptr);
+    TEST_CHECK(second.length == 0);
+}
+
+void copy_operator_works_empty_list_assignment() {
+//    cerr << "Copy operator = works empty list" << endl;
+    LinkedList first;
+    LinkedList second = first;
+    // first still exists
+    TEST_CHECK(second.head == nullptr);
+    TEST_CHECK(second.tail == nullptr);
+    TEST_CHECK(second.length == 0);
+}
+
+void copy_operator_works_assignment() {
+    LinkedList first;
+    first.pushTail("a", 1);
+    LinkedList second=first;
+    // first still exists
+    TEST_CHECK(first.head->name == "a");
+    TEST_CHECK(first.head->amount == 1);
+    TEST_CHECK(second.tail->name == "a");
+    TEST_CHECK(second.tail->amount == 1);
+    // not same address
+    TEST_CHECK(&first != &second);
+
 }
 
 void length_works_push() {
@@ -133,6 +158,8 @@ void length_works_copy()  {
     TEST_CHECK(third.length == second.length);
 }
 
+
+
 TEST_LIST = {
         { "Can create empty LinkedList", create_linked_list },
         { "Empty LinkedList has length == 0 ", created_linked_list_is_empty},
@@ -143,8 +170,10 @@ TEST_LIST = {
         { "LinkedList gets its only node updated", updates_node_in_one_node},
         { "Updates second node", updates_second_node},
         { "Destroying empty list", destroying_empty_list},
-        { "Copy operator works", copy_operator_works},
         { "Copy operator works on empty list", copy_operator_works_empty_list},
+        { "Copy operator works", copy_operator_works},
+        { "Copy operator = works on empty list", copy_operator_works_empty_list_assignment},
+//        { "Copy operator works", copy_operator_works},
         { "Length reflects true length of list by push", length_works_push},
         { "Length reflects true length of list by copy", length_works_copy},
         { 0 }

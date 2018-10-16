@@ -41,8 +41,6 @@ int main(int argc, char* argv[]) {
     cout << "input file: " << argv[1] << endl;
     cout << "output file: " << argv[2] << endl;
 
-
-    /*
     // here, perform the input operation. in other words,
     // read the file named <argv[1]>
     ifstream infile(argv[1]);
@@ -82,7 +80,6 @@ int main(int argc, char* argv[]) {
     cout << "minExp " << minExp << endl;
     cout << "maxExp " << maxExp << endl;
     cout << "avgExp " << avgExp << endl;
-    */
 
 
     return 0;

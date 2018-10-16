@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g   CMakeFiles/test_.dir/Node.cpp.o CMakeFiles/test_.dir/LinkedList.cpp.o CMakeFiles/test_.dir/SurveyClass.cpp.o CMakeFiles/test_.dir/LinkedList.test.cpp.o  -o test_ 

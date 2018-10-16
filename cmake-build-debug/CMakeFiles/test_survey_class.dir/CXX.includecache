@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/LinkedList.h
+iostream
+-
+Node.h
+/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/Node.h
+
+/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/Node.h
+iostream
+-
+
+/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/SurveyClass.cpp
+SurveyClass.h
+/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/SurveyClass.h
+limits
+-
+
+/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/SurveyClass.h
+LinkedList.h
+/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/LinkedList.h
+string
+-
+

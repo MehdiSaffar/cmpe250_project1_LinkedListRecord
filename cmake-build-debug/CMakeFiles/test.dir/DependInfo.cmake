@@ -5,9 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/LinkedList.cpp" "/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles/test.dir/LinkedList.cpp.o"
+  "/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/LinkedList.test.cpp" "/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles/test.dir/LinkedList.test.cpp.o"
   "/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/Node.cpp" "/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles/test.dir/Node.cpp.o"
   "/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/SurveyClass.cpp" "/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles/test.dir/SurveyClass.cpp.o"
-  "/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/test_example.cpp" "/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles/test.dir/test_example.cpp.o"
+  "/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/SurveyClass.test.cpp" "/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles/test.dir/SurveyClass.test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

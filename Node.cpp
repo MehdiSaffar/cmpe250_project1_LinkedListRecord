@@ -7,7 +7,7 @@ Node::Node(string _name, float _amount){
 }
 
 Node::Node(const Node& node){
-    cerr << "Node copy called" << endl;
+//    cerr << "Node copy called" << endl;
     this->name = node.name;
     this->amount = node.amount;
     if(node.next) {

@@ -5,6 +5,11 @@ CMakeFiles/test.dir/LinkedList.cpp.o: ../LinkedList.cpp
 CMakeFiles/test.dir/LinkedList.cpp.o: ../LinkedList.h
 CMakeFiles/test.dir/LinkedList.cpp.o: ../Node.h
 
+CMakeFiles/test.dir/LinkedList.test.cpp.o: ../LinkedList.h
+CMakeFiles/test.dir/LinkedList.test.cpp.o: ../LinkedList.test.cpp
+CMakeFiles/test.dir/LinkedList.test.cpp.o: ../Node.h
+CMakeFiles/test.dir/LinkedList.test.cpp.o: ../acutest.h
+
 CMakeFiles/test.dir/Node.cpp.o: ../Node.cpp
 CMakeFiles/test.dir/Node.cpp.o: ../Node.h
 
@@ -13,8 +18,9 @@ CMakeFiles/test.dir/SurveyClass.cpp.o: ../Node.h
 CMakeFiles/test.dir/SurveyClass.cpp.o: ../SurveyClass.cpp
 CMakeFiles/test.dir/SurveyClass.cpp.o: ../SurveyClass.h
 
-CMakeFiles/test.dir/test_example.cpp.o: ../LinkedList.h
-CMakeFiles/test.dir/test_example.cpp.o: ../Node.h
-CMakeFiles/test.dir/test_example.cpp.o: ../acutest.h
-CMakeFiles/test.dir/test_example.cpp.o: ../test_example.cpp
+CMakeFiles/test.dir/SurveyClass.test.cpp.o: ../LinkedList.h
+CMakeFiles/test.dir/SurveyClass.test.cpp.o: ../Node.h
+CMakeFiles/test.dir/SurveyClass.test.cpp.o: ../SurveyClass.h
+CMakeFiles/test.dir/SurveyClass.test.cpp.o: ../SurveyClass.test.cpp
+CMakeFiles/test.dir/SurveyClass.test.cpp.o: ../acutest.h
 

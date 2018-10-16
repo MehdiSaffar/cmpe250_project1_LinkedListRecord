@@ -16,39 +16,13 @@ Node.h
 iostream
 -
 
-/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/acutest.h
-stdarg.h
--
-stdio.h
--
-stdlib.h
--
-string.h
--
-errno.h
--
-unistd.h
--
-sys/types.h
--
-sys/wait.h
--
-signal.h
--
-fcntl.h
--
-sys/stat.h
--
-windows.h
--
-io.h
--
-exception
--
+/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/SurveyClass.cpp
+SurveyClass.h
+/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/SurveyClass.h
 
-/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/test_example.cpp
-acutest.h
-/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/acutest.h
+/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/SurveyClass.h
 LinkedList.h
 /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/LinkedList.h
+string
+-
 

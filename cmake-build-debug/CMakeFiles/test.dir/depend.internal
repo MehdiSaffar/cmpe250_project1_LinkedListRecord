@@ -5,6 +5,11 @@ CMakeFiles/test.dir/LinkedList.cpp.o
  /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/LinkedList.cpp
  /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/LinkedList.h
  /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/Node.h
+CMakeFiles/test.dir/LinkedList.test.cpp.o
+ /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/LinkedList.h
+ /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/LinkedList.test.cpp
+ /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/Node.h
+ /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/acutest.h
 CMakeFiles/test.dir/Node.cpp.o
  /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/Node.cpp
  /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/Node.h
@@ -13,8 +18,9 @@ CMakeFiles/test.dir/SurveyClass.cpp.o
  /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/Node.h
  /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/SurveyClass.cpp
  /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/SurveyClass.h
-CMakeFiles/test.dir/test_example.cpp.o
+CMakeFiles/test.dir/SurveyClass.test.cpp.o
  /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/LinkedList.h
  /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/Node.h
+ /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/SurveyClass.h
+ /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/SurveyClass.test.cpp
  /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/acutest.h
- /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/test_example.cpp

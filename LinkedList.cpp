@@ -1,4 +1,5 @@
 #include "LinkedList.h"
+#include <assert.h>
 
 
 LinkedList::LinkedList() {
@@ -8,13 +9,33 @@ LinkedList::LinkedList() {
 }
 
 LinkedList::LinkedList(const LinkedList &list) {
-    cerr << "Copy called" << endl;
+//    cerr << "Copy called" << endl;
     this->length = list.length;
     if(list.length == 0) {
         // do nothing
         this->head = nullptr;
         this->tail = nullptr;
         return;
+    }
+
+    this->head = new Node(*(list.head));
+
+    auto lastNode = &(this->head);
+    while((*lastNode)->next != nullptr) {
+        lastNode = &((*lastNode)->next);
+    }
+
+    this->tail = (*lastNode);
+}
+
+LinkedList &LinkedList::operator=(const LinkedList &list) {
+//    cerr << "Copy (=) called" << endl;
+    this->length = list.length;
+    if(list.length == 0) {
+        // do nothing
+        this->head = nullptr;
+        this->tail = nullptr;
+        return *this;
     }
 
     this->head = new Node((*list.head));
@@ -25,15 +46,11 @@ LinkedList::LinkedList(const LinkedList &list) {
     }
 
     this->tail = (*lastNode);
-}
-
-LinkedList &LinkedList::operator=(const LinkedList &list) {
-//    this->head = list.head;
-//    this->tail = list.tail;
+    return *this;
 }
 
 LinkedList::LinkedList(LinkedList &&list) {
-    cerr << "Move called" << endl;
+//    cerr << "Move called" << endl;
 
 }
 
@@ -59,7 +76,7 @@ void LinkedList::pushTail(string _name, float _amount) {
 void LinkedList::updateNode(string _name, float _amount) {
     // do nothing if empty list
     if(this->head == nullptr)  {
-        std::cerr << "List is empty" << std::endl;
+//        std::cerr << "List is empty" << std::endl;
         return;
     }
 
@@ -69,7 +86,7 @@ void LinkedList::updateNode(string _name, float _amount) {
     }
 
     if((*node) == nullptr) {
-        std::cerr << "Could not find node of name " << _name << std::endl;
+//        std::cerr << "Could not find node of name " << _name << std::endl;
         return;
     }
 

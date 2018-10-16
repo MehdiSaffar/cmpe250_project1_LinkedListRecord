@@ -65,43 +65,6 @@ CMAKE_SOURCE_DIR = /home/student/ClionProjects/cmpe250-project1-MehdiSaffar
 CMAKE_BINARY_DIR = /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/test.dir
-
-# All Build rule for target.
-CMakeFiles/test.dir/all:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles --progress-num=6,7,8,9,10 "Built target test"
-.PHONY : CMakeFiles/test.dir/all
-
-# Include target in all.
-all: CMakeFiles/test.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/test.dir/rule
-
-# Convenience name for target.
-test: CMakeFiles/test.dir/rule
-
-.PHONY : test
-
-# clean rule for target.
-CMakeFiles/test.dir/clean:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
-.PHONY : CMakeFiles/test.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/test.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/project1.dir
 
 # All Build rule for target.
@@ -135,6 +98,80 @@ CMakeFiles/project1.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/project1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_linked_list.dir
+
+# All Build rule for target.
+CMakeFiles/test_linked_list.dir/all:
+	$(MAKE) -f CMakeFiles/test_linked_list.dir/build.make CMakeFiles/test_linked_list.dir/depend
+	$(MAKE) -f CMakeFiles/test_linked_list.dir/build.make CMakeFiles/test_linked_list.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles --progress-num=6,7,8,9,10 "Built target test_linked_list"
+.PHONY : CMakeFiles/test_linked_list.dir/all
+
+# Include target in all.
+all: CMakeFiles/test_linked_list.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_linked_list.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_linked_list.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/test_linked_list.dir/rule
+
+# Convenience name for target.
+test_linked_list: CMakeFiles/test_linked_list.dir/rule
+
+.PHONY : test_linked_list
+
+# clean rule for target.
+CMakeFiles/test_linked_list.dir/clean:
+	$(MAKE) -f CMakeFiles/test_linked_list.dir/build.make CMakeFiles/test_linked_list.dir/clean
+.PHONY : CMakeFiles/test_linked_list.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test_linked_list.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_survey_class.dir
+
+# All Build rule for target.
+CMakeFiles/test_survey_class.dir/all:
+	$(MAKE) -f CMakeFiles/test_survey_class.dir/build.make CMakeFiles/test_survey_class.dir/depend
+	$(MAKE) -f CMakeFiles/test_survey_class.dir/build.make CMakeFiles/test_survey_class.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles --progress-num=11,12,13,14,15 "Built target test_survey_class"
+.PHONY : CMakeFiles/test_survey_class.dir/all
+
+# Include target in all.
+all: CMakeFiles/test_survey_class.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_survey_class.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_survey_class.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/test_survey_class.dir/rule
+
+# Convenience name for target.
+test_survey_class: CMakeFiles/test_survey_class.dir/rule
+
+.PHONY : test_survey_class
+
+# clean rule for target.
+CMakeFiles/test_survey_class.dir/clean:
+	$(MAKE) -f CMakeFiles/test_survey_class.dir/build.make CMakeFiles/test_survey_class.dir/clean
+.PHONY : CMakeFiles/test_survey_class.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test_survey_class.dir/clean
 
 .PHONY : clean
 

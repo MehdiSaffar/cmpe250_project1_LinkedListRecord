@@ -96,25 +96,39 @@ CMakeFiles/test.dir/SurveyClass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/SurveyClass.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/SurveyClass.cpp -o CMakeFiles/test.dir/SurveyClass.cpp.s
 
-CMakeFiles/test.dir/test_example.cpp.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/test_example.cpp.o: ../test_example.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test.dir/test_example.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/test_example.cpp.o -c /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/test_example.cpp
+CMakeFiles/test.dir/LinkedList.test.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/LinkedList.test.cpp.o: ../LinkedList.test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test.dir/LinkedList.test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/LinkedList.test.cpp.o -c /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/LinkedList.test.cpp
 
-CMakeFiles/test.dir/test_example.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/test_example.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/test_example.cpp > CMakeFiles/test.dir/test_example.cpp.i
+CMakeFiles/test.dir/LinkedList.test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/LinkedList.test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/LinkedList.test.cpp > CMakeFiles/test.dir/LinkedList.test.cpp.i
 
-CMakeFiles/test.dir/test_example.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/test_example.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/test_example.cpp -o CMakeFiles/test.dir/test_example.cpp.s
+CMakeFiles/test.dir/LinkedList.test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/LinkedList.test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/LinkedList.test.cpp -o CMakeFiles/test.dir/LinkedList.test.cpp.s
+
+CMakeFiles/test.dir/SurveyClass.test.cpp.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/SurveyClass.test.cpp.o: ../SurveyClass.test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test.dir/SurveyClass.test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/SurveyClass.test.cpp.o -c /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/SurveyClass.test.cpp
+
+CMakeFiles/test.dir/SurveyClass.test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/SurveyClass.test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/SurveyClass.test.cpp > CMakeFiles/test.dir/SurveyClass.test.cpp.i
+
+CMakeFiles/test.dir/SurveyClass.test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/SurveyClass.test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/ClionProjects/cmpe250-project1-MehdiSaffar/SurveyClass.test.cpp -o CMakeFiles/test.dir/SurveyClass.test.cpp.s
 
 # Object files for target test
 test_OBJECTS = \
 "CMakeFiles/test.dir/Node.cpp.o" \
 "CMakeFiles/test.dir/LinkedList.cpp.o" \
 "CMakeFiles/test.dir/SurveyClass.cpp.o" \
-"CMakeFiles/test.dir/test_example.cpp.o"
+"CMakeFiles/test.dir/LinkedList.test.cpp.o" \
+"CMakeFiles/test.dir/SurveyClass.test.cpp.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
@@ -122,10 +136,11 @@ test_EXTERNAL_OBJECTS =
 test: CMakeFiles/test.dir/Node.cpp.o
 test: CMakeFiles/test.dir/LinkedList.cpp.o
 test: CMakeFiles/test.dir/SurveyClass.cpp.o
-test: CMakeFiles/test.dir/test_example.cpp.o
+test: CMakeFiles/test.dir/LinkedList.test.cpp.o
+test: CMakeFiles/test.dir/SurveyClass.test.cpp.o
 test: CMakeFiles/test.dir/build.make
 test: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
