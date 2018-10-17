@@ -2,22 +2,24 @@
 #include <limits>
 
 SurveyClass::SurveyClass() {
-    members = new LinkedList;
+    this->members = new LinkedList;
 }
 
 SurveyClass::SurveyClass(const SurveyClass &other) {
-
+    this->members = new LinkedList((*other.members));
 }
 
 SurveyClass &SurveyClass::operator=(const SurveyClass &list) {
+    this->members = new LinkedList((*list.members));
     return *this;
 }
 
 SurveyClass::SurveyClass(SurveyClass &&other) {
-
+    std::swap(other.members, this->members);
 }
 
 SurveyClass &SurveyClass::operator=(SurveyClass &&list) {
+    std::swap(list.members, this->members);
     return *this;
 }
 
@@ -26,7 +28,7 @@ SurveyClass::~SurveyClass() {
 }
 
 void SurveyClass::handleNewRecord(string _name, float _amount) {
-    members->pushTail(_name, _amount);
+    members->pushTail(std::move(_name), _amount);
 }
 
 float SurveyClass::calculateMinimumExpense() {

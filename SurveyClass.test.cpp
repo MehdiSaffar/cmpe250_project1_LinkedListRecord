@@ -71,8 +71,51 @@ void avg_correct() {
     TEST_CHECK(surveyClass.calculateAverageExpense() == expectedAvg);
 }
 
+void copy_empty() {
+    SurveyClass first;
+    SurveyClass second = first;
+    TEST_CHECK(first.members != second.members); // check deep copy
+    TEST_CHECK(first.members->length == second.members->length); // check deep copy
+}
+
+void copy_one_item() {
+    SurveyClass first;
+    first.handleNewRecord("a", 1);
+    SurveyClass second = first;
+    TEST_CHECK(first.members != second.members); // check deep copy
+    TEST_CHECK(first.members->length == second.members->length); // check deep copy
+    TEST_CHECK(first.members->head->name == second.members->head->name); // check deep copy
+    TEST_CHECK(first.members->head->amount == second.members->head->amount); // check deep copy
+}
+
+void move_empty() {
+    SurveyClass first;
+    SurveyClass second = std::move(first);
+    TEST_CHECK(first.members == nullptr);
+    TEST_CHECK(second.members != nullptr);
+    TEST_CHECK(second.members->length == 0);
+}
+
+void move_one_item() {
+    SurveyClass first;
+    first.handleNewRecord("a", 1);
+    auto oldMembers = first.members;
+    SurveyClass second = std::move(first);
+    TEST_CHECK(first.members == nullptr);
+    TEST_CHECK(second.members == oldMembers);
+    TEST_CHECK(second.members->head == oldMembers->head);
+    TEST_CHECK(second.members->head->name == oldMembers->head->name);
+    TEST_CHECK(second.members->head->amount == oldMembers->head->amount);
+}
 TEST_LIST = {
         {"Constructs without crashing",  constructs_without_crashing},
+        // copy
+        {"Copies empty survey class", copy_empty},
+        {"Copies survey class with one item", copy_one_item},
+        // move
+        {"Moves empty survey class", move_empty},
+
+
         {"Can add record (a, 1)",        add_one_record},
         {"Can add record (a, 1) (b, 2)", add_two_records},
         {"Avg of empty is 0",            avg_empty_0},

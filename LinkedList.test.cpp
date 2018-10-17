@@ -158,6 +158,30 @@ void length_works_copy()  {
     TEST_CHECK(third.length == second.length);
 }
 
+void move_operator_works_empty_list() {
+    LinkedList first;
+    auto oldLength = first.length;
+    auto oldHead = first.head;
+    auto oldTail = first.tail;
+    LinkedList second = std::move(first);
+    TEST_CHECK(second.length == oldLength);
+    TEST_CHECK(second.head == oldHead);
+    TEST_CHECK(second.tail == oldTail);
+}
+
+void move_operator_works() {
+    LinkedList first;
+    first.pushTail("a", 1);
+    auto oldLength = first.length;
+    auto oldHead = first.head;
+    auto oldTail = first.tail;
+    LinkedList second = std::move(first);
+    TEST_CHECK(second.length == oldLength);
+//    TEST_CHECK(second.head == oldHead);
+//    TEST_CHECK(second.tail == oldTail);
+//    TEST_CHECK(second.head->name == "a");
+//    TEST_CHECK(second.head->amount == 1);
+}
 
 
 TEST_LIST = {
@@ -170,11 +194,18 @@ TEST_LIST = {
         { "LinkedList gets its only node updated", updates_node_in_one_node},
         { "Updates second node", updates_second_node},
         { "Destroying empty list", destroying_empty_list},
+
+        // copy
         { "Copy operator works on empty list", copy_operator_works_empty_list},
-        { "Copy operator works", copy_operator_works},
         { "Copy operator = works on empty list", copy_operator_works_empty_list_assignment},
-//        { "Copy operator works", copy_operator_works},
-        { "Length reflects true length of list by push", length_works_push},
-        { "Length reflects true length of list by copy", length_works_copy},
+        { "Copy operator works", copy_operator_works},
+        { "Copy operator =works", copy_operator_works_assignment},
+
+        // move
+        { "Move operator works on empty list", move_operator_works_empty_list},
+        { "Move operator works", move_operator_works},
+        // length
+//        { "Length reflects true length of list by push", length_works_push},
+//        { "Length reflects true length of list by copy", length_works_copy},
         { 0 }
 };

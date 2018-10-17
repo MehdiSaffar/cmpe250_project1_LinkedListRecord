@@ -1,6 +1,4 @@
 #include "LinkedList.h"
-#include <assert.h>
-
 
 LinkedList::LinkedList() {
     this->length = 0;
@@ -9,9 +7,8 @@ LinkedList::LinkedList() {
 }
 
 LinkedList::LinkedList(const LinkedList &list) {
-//    cerr << "Copy called" << endl;
     this->length = list.length;
-    if(list.length == 0) {
+    if (list.length == 0) {
         // do nothing
         this->head = nullptr;
         this->tail = nullptr;
@@ -21,7 +18,7 @@ LinkedList::LinkedList(const LinkedList &list) {
     this->head = new Node(*(list.head));
 
     auto lastNode = &(this->head);
-    while((*lastNode)->next != nullptr) {
+    while ((*lastNode)->next != nullptr) {
         lastNode = &((*lastNode)->next);
     }
 
@@ -29,9 +26,8 @@ LinkedList::LinkedList(const LinkedList &list) {
 }
 
 LinkedList &LinkedList::operator=(const LinkedList &list) {
-//    cerr << "Copy (=) called" << endl;
     this->length = list.length;
-    if(list.length == 0) {
+    if (list.length == 0) {
         // do nothing
         this->head = nullptr;
         this->tail = nullptr;
@@ -41,7 +37,7 @@ LinkedList &LinkedList::operator=(const LinkedList &list) {
     this->head = new Node((*list.head));
 
     auto lastNode = &(this->head);
-    while((*lastNode) != nullptr) {
+    while ((*lastNode) != nullptr) {
         lastNode = &((*lastNode)->next);
     }
 
@@ -50,23 +46,27 @@ LinkedList &LinkedList::operator=(const LinkedList &list) {
 }
 
 LinkedList::LinkedList(LinkedList &&list) {
-//    cerr << "Move called" << endl;
-
+    std::swap(this->length, list.length);
+    std::swap(this->head, list.head);
+    std::swap(this->tail, list.tail);
 }
 
 LinkedList &LinkedList::operator=(LinkedList &&list) {
-    return *(new LinkedList());
+    std::swap(this->length, list.length);
+    std::swap(this->head, list.head);
+    std::swap(this->tail, list.tail);
+    return *this;
 }
 
 void LinkedList::pushTail(string _name, float _amount) {
     this->length++;
-    if(this->head == nullptr) {
+    if (this->head == nullptr) {
         this->tail = this->head = new Node(_name, _amount);
         return;
     }
 
     auto lastNode = &(this->head);
-    while((*lastNode) != nullptr) {
+    while ((*lastNode) != nullptr) {
         lastNode = &((*lastNode)->next);
     }
     (*lastNode) = new Node(_name, _amount);
@@ -75,23 +75,20 @@ void LinkedList::pushTail(string _name, float _amount) {
 
 void LinkedList::updateNode(string _name, float _amount) {
     // do nothing if empty list
-    if(this->head == nullptr)  {
-//        std::cerr << "List is empty" << std::endl;
+    if (this->head == nullptr) {
         return;
     }
 
     auto node = &(this->head);
-    while((*node) != nullptr && (*node)->name != _name) {
+    while ((*node) != nullptr && (*node)->name != _name) {
         node = &((*node)->next);
     }
 
-    if((*node) == nullptr) {
-//        std::cerr << "Could not find node of name " << _name << std::endl;
+    if ((*node) == nullptr) {
         return;
     }
 
     (*node)->amount = _amount;
-
 }
 
 
