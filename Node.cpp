@@ -7,7 +7,6 @@ Node::Node(string _name, float _amount){
 }
 
 Node::Node(const Node& node){
-//    cerr << "Node copy called" << endl;
     this->name = node.name;
     this->amount = node.amount;
     if(node.next) {
@@ -26,26 +25,20 @@ Node& Node::operator=(const Node& node){
 }
 
 Node::Node(Node&& node){
-    cerr << "Node move called" << endl;
     this->name = move(node.name);
     this->amount = move(node.amount);
-    if(node.next) {
-        this->next = new Node(*(node.next));
-    }
+    this->next = move(node.next);
 
     node.name = "";
     node.amount = 0;
     node.next = NULL;
-
 }
 
 Node& Node::operator=(Node&& node){
     this->name = move(node.name);
     this->amount = move(node.amount);
-    if(node.next) {
-        delete this->next;
-        this->next = new Node(*(node.next));
-    }
+    delete this->next;
+    this->next = move(node.next);
 
     node.name = "";
     node.amount = 0;

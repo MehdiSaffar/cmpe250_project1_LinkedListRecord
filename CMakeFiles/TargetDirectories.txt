@@ -1,0 +1,5 @@
+/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/CMakeFiles/rebuild_cache.dir
+/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/CMakeFiles/edit_cache.dir
+/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/CMakeFiles/test_survey_class.dir
+/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/CMakeFiles/test_linked_list.dir
+/home/student/ClionProjects/cmpe250-project1-MehdiSaffar/CMakeFiles/project1.dir

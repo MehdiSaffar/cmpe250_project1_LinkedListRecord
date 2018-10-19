@@ -43,7 +43,9 @@ int main(int argc, char* argv[]) {
 
     // here, perform the input operation. in other words,
     // read the file named <argv[1]>
+    cout << "before infile" << endl;
     ifstream infile(argv[1]);
+    cout << "after infile" << endl;
     string line;
     vector<string> input;
     // process first line

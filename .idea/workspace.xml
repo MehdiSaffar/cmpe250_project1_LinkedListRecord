@@ -1,31 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
     <generated>
-      <config projectName="project1" targetName="project1" />
       <config projectName="project1" targetName="test_survey_class" />
+      <config projectName="project1" targetName="project1" />
       <config projectName="project1" targetName="test_linked_list" />
     </generated>
   </component>
-  <component name="CMakeSettings" AUTO_RELOAD="true">
-    <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
-    </configurations>
+  <component name="CMakeSettings" AUTO_RELOAD="true" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+    <ADDITIONAL_GENERATION_ENVIRONMENT>
+      <envs />
+    </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f26aabf4-40be-4f8e-983a-db32d33cdc97" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/LinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList.test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList.test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SurveyClass.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SurveyClass.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SurveyClass.test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SurveyClass.test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/test_example.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_survey_class.dir/SurveyClass.test.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test" beforeDir="false" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/test_example.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/test" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_linked_list.dir/LinkedList.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_linked_list.dir/LinkedList.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_linked_list.dir/LinkedList.test.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_linked_list.dir/LinkedList.test.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_linked_list.dir/Node.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_linked_list.dir/Node.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_linked_list.dir/SurveyClass.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_linked_list.dir/SurveyClass.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_survey_class.dir/SurveyClass.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_survey_class.dir/SurveyClass.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/test_linked_list" afterPath="$PROJECT_DIR$/cmake-build-debug/test_linked_list" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/test_survey_class" afterPath="$PROJECT_DIR$/cmake-build-debug/test_survey_class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedList.cpp" afterPath="$PROJECT_DIR$/LinkedList.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedList.h" afterPath="$PROJECT_DIR$/LinkedList.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node.cpp" afterPath="$PROJECT_DIR$/Node.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SurveyClass.cpp" afterPath="$PROJECT_DIR$/SurveyClass.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_linked_list.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_linked_list.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_survey_class.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_survey_class.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="cmpe250-project1-MehdiSaffar.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,12 +45,12 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FUSProjectUsageTrigger">
     <session id="1987860617">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.9" value="1" />
@@ -49,7 +60,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="c" value="51" />
-          <entry key="cpp" value="13935" />
+          <entry key="cpp" value="14585" />
           <entry key="h" value="62" />
           <entry key="hpp" value="7" />
           <entry key="txt" value="508" />
@@ -58,7 +69,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="508" />
-          <entry key="ObjectiveC" value="14055" />
+          <entry key="ObjectiveC" value="14705" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,99 +96,103 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
+                <state relative-caret-position="135">
                   <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file leaf-file-name="LinkedList.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LinkedList.cpp">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file leaf-file-name="Node.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Node.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="413">
-                  <caret line="59" selection-start-line="59" selection-end-line="59" />
+                <state relative-caret-position="780">
+                  <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="80">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
-                  <folding>
-                    <element signature="e#173#190#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="360">
+                  <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/input.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="output.txt" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/output.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SurveyClass.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SurveyClass.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
+                <state relative-caret-position="180">
                   <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-                  <folding>
-                    <element signature="e#63#86#0" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file leaf-file-name="SurveyClass.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SurveyClass.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="26" selection-start-line="26" selection-end-line="26" />
-                  <folding>
-                    <element signature="e#0#24#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="1065">
+                  <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Node.h">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
+          <file leaf-file-name="LinkedList.test.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LinkedList.test.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
+                <state relative-caret-position="2655">
                   <caret line="177" column="40" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
-                  <folding>
-                    <element signature="e#0#20#0" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file leaf-file-name="acutest.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/acutest.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="185">
-                  <caret line="312" selection-start-line="312" selection-end-line="312" />
+                <state relative-caret-position="4680">
+                  <caret line="312" column="0" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
                   <folding>
-                    <element signature="e#4251#4270#0" expanded="true" />
-                    <element signature="e#4441#4459#0" expanded="true" />
-                    <element signature="e#4610#4628#0" expanded="true" />
-                    <element signature="e#4725#4799#0" expanded="true" />
-                    <element signature="e#7144#8154#0" expanded="true" />
-                    <element signature="e#9041#9367#0" expanded="true" />
-                    <element signature="e#17596#18814#0" expanded="true" />
-                    <element signature="e#19092#19446#0" expanded="true" />
-                    <element signature="e#22273#22438#0" expanded="true" />
-                    <element signature="e#25079#25132#0" expanded="true" />
-                    <element signature="e#25602#25661#0" expanded="true" />
+                    <marker date="1539699097671" expanded="true" signature="17728:17841" ph="/.../" />
                   </folding>
                 </state>
               </provider>
@@ -186,39 +201,33 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="SurveyClass.test.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/SurveyClass.test.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="318">
-                  <caret line="107" column="70" selection-start-line="107" selection-start-column="70" selection-end-line="107" selection-end-column="70" />
-                  <folding>
-                    <element signature="e#0#20#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="570">
+                  <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file leaf-file-name="LinkedList.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LinkedList.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-                  <folding>
-                    <element signature="e#43#62#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="420">
+                  <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file leaf-file-name="LinkedList.test.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LinkedList.test.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="386">
+                <state relative-caret-position="3075">
                   <caret line="205" column="12" selection-start-line="205" selection-start-column="12" selection-end-line="205" selection-end-column="12" />
-                  <folding>
-                    <element signature="e#0#20#0" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -241,10 +250,12 @@
         <option value="$PROJECT_DIR$/test_example.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/LinkedList.test.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/LinkedList.cpp" />
         <option value="$PROJECT_DIR$/SurveyClass.test.cpp" />
         <option value="$PROJECT_DIR$/SurveyClass.cpp" />
+        <option value="$PROJECT_DIR$/LinkedList.cpp" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/input.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/output.txt" />
       </list>
     </option>
   </component>
@@ -260,36 +271,76 @@
     <option name="width" value="1922" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmpe250-project1-MehdiSaffar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cmpe250-project1-MehdiSaffar" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project1" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project1" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmpe250-project1-MehdiSaffar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project1" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmpe250-project1-MehdiSaffar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmake-build-debug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="node&#9;FILE&#9;file:///home/student/ClionProjects/cmpe250-project1-MehdiSaffar/Node.cpp&#10;pusht&#9;null&#9;null&#10;termina&#9;ACTION&#9;ActivateTerminalToolWindow&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;proj&#9;ACTION&#9;ActivateProjectToolWindow&#10;termina&#9;ACTION&#9;ActivateTerminalToolWindow&#10;link&#9;FILE&#9;file:///home/student/ClionProjects/cmpe250-project1-MehdiSaffar/LinkedList.cpp&#10;node&#9;FILE&#9;file:///home/student/ClionProjects/cmpe250-project1-MehdiSaffar/Node.cpp&#10;pusht&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -306,7 +357,78 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test_survey_class">
+  <component name="RunManager" selected="Application.project1">
+    <configuration name="All in main.cpp" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project1" TARGET_NAME="project1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project1" RUN_TARGET_NAME="project1" TEST_PATTERN="[#main]" TEST_MODE="PATTERN">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factorials are computed" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" TEST_CLASS="[factorial]" TEST_METHOD="Factorials are computed" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project1" TARGET_NAME="project1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project1" RUN_TARGET_NAME="project1" TEST_METHOD="Test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project1" TARGET_NAME="project1" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project1" TARGET_NAME="project1" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmpe250-project1-MehdiSaffar" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmpe250-project1-MehdiSaffar" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,76 +448,117 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="All in main.cpp" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project1" TARGET_NAME="project1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project1" RUN_TARGET_NAME="project1" TEST_PATTERN="[#main]" TEST_MODE="PATTERN">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Factorials are computed" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" TEST_CLASS="[factorial]" TEST_METHOD="Factorials are computed" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project1" TARGET_NAME="project1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project1" RUN_TARGET_NAME="project1" TEST_METHOD="Test" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project1" TARGET_NAME="project1" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project1" TARGET_NAME="project1" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="project1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project1" TARGET_NAME="project1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project1" RUN_TARGET_NAME="project1">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test_linked_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project1" TARGET_NAME="test_linked_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project1" RUN_TARGET_NAME="test_linked_list">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test_survey_class" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project1" TARGET_NAME="test_survey_class" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project1" RUN_TARGET_NAME="test_survey_class">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
       <envs />
-      <method v="2" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmpe250-project1-MehdiSaffar" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
     </configuration>
-    <list>
-      <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.project1" />
-      <item itemvalue="Application.test_linked_list" />
-      <item itemvalue="Application.test_survey_class" />
-      <item itemvalue="Catch.All in main.cpp" />
-      <item itemvalue="Catch.Test" />
-      <item itemvalue="Catch.Factorials are computed" />
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmpe250-project1-MehdiSaffar" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmpe250-project1-MehdiSaffar" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmpe250-project1-MehdiSaffar" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="project1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project1" TARGET_NAME="project1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project1" RUN_TARGET_NAME="project1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_linked_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project1" TARGET_NAME="test_linked_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project1" RUN_TARGET_NAME="test_linked_list">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_survey_class" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project1" TARGET_NAME="test_survey_class" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="project1" RUN_TARGET_NAME="test_survey_class">
+      <envs />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.project1" />
+      <item index="2" class="java.lang.String" itemvalue="Application.test_linked_list" />
+      <item index="3" class="java.lang.String" itemvalue="Application.test_survey_class" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Catch.Factorials are computed" />
-        <item itemvalue="Catch.Test" />
-        <item itemvalue="Catch.All in main.cpp" />
-      </list>
-    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -412,39 +575,38 @@
       <workItem from="1539697229633" duration="56000" />
       <workItem from="1539697310130" duration="631000" />
       <workItem from="1539697987041" duration="237000" />
-      <workItem from="1539698440453" duration="13115000" />
+      <workItem from="1539698440453" duration="14736000" />
+      <workItem from="1539948182319" duration="508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17451000" />
+    <option name="totallyTimeSpent" value="19580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10063898" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="DB Browser" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.62992543" visible="true" weight="0.32976446" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4978701" weight="0.39957264" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="CMake" order="7" sideWeight="0.4946752" weight="0.32799146" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.48828542" weight="0.32799146" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.37007454" side_tool="true" visible="true" weight="0.32976446" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.6506922" weight="0.32869378" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,264 +633,72 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/catch.hpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17580">
-          <caret line="1172" column="44" selection-start-line="1172" selection-start-column="44" selection-end-line="1172" selection-end-column="44" />
-          <folding>
-            <element signature="e#673#704#0" expanded="true" />
-            <element signature="e#819#1181#0" expanded="true" />
-            <element signature="e#1649#1702#0" expanded="true" />
-            <element signature="e#1862#2114#0" expanded="true" />
-            <element signature="e#2204#2358#0" expanded="true" />
-            <element signature="e#2562#2594#0" expanded="true" />
-            <element signature="e#2646#2754#0" expanded="true" />
-            <element signature="e#3817#3851#0" expanded="true" />
-            <element signature="e#3943#3977#0" expanded="true" />
-            <element signature="e#4032#4089#0" expanded="true" />
-            <element signature="e#4116#5057#0" expanded="true" />
-            <element signature="e#5557#5603#0" expanded="true" />
-            <element signature="e#5629#5722#0" expanded="true" />
-            <element signature="e#5894#5946#0" expanded="true" />
-            <element signature="e#6114#6162#0" expanded="true" />
-            <element signature="e#6282#6330#0" expanded="true" />
-            <element signature="e#6449#6989#0" expanded="true" />
-            <element signature="e#7124#7512#0" expanded="true" />
-            <element signature="e#7922#7962#0" expanded="true" />
-            <element signature="e#8673#8799#0" expanded="true" />
-            <element signature="e#8960#9674#0" expanded="true" />
-            <element signature="e#10029#10064#0" expanded="true" />
-            <element signature="e#11025#11073#0" expanded="true" />
-            <element signature="e#11226#11266#0" expanded="true" />
-            <element signature="e#11407#11443#0" expanded="true" />
-            <element signature="e#11500#11543#0" expanded="true" />
-            <element signature="e#11728#11762#0" expanded="true" />
-            <element signature="e#11871#11912#0" expanded="true" />
-            <element signature="e#12480#12590#0" expanded="true" />
-            <element signature="e#13043#13137#0" expanded="true" />
-            <element signature="e#13146#13163#0" expanded="true" />
-            <element signature="e#14721#14733#0" expanded="true" />
-            <element signature="e#15546#15563#0" expanded="true" />
-            <element signature="e#16451#16469#0" expanded="true" />
-            <element signature="e#20485#20497#0" expanded="true" />
-            <element signature="e#20909#20921#0" expanded="true" />
-            <element signature="e#21787#22266#0" expanded="true" />
-            <element signature="e#26667#26684#0" expanded="true" />
-            <element signature="e#26770#26787#0" expanded="true" />
-            <element signature="e#27350#27362#0" expanded="true" />
-            <element signature="e#27625#27647#0" expanded="true" />
-            <element signature="e#27672#28731#0" expanded="true" />
-            <element signature="e#28756#28906#0" expanded="true" />
-            <element signature="e#29396#29408#0" expanded="true" />
-            <element signature="e#29560#29572#0" expanded="true" />
-            <element signature="e#29628#29654#0" expanded="true" />
-            <element signature="e#29796#29816#0" expanded="true" />
-            <element signature="e#30002#30014#0" expanded="true" />
-            <element signature="e#30087#30099#0" expanded="true" />
-            <element signature="e#30361#30373#0" expanded="true" />
-            <element signature="e#30620#30632#0" expanded="true" />
-            <element signature="e#30879#31311#0" expanded="true" />
-            <element signature="e#31420#31449#0" expanded="true" />
-            <element signature="e#31492#31511#0" expanded="true" />
-            <element signature="e#31937#31956#0" expanded="true" />
-            <element signature="e#32234#32282#0" expanded="true" />
-            <element signature="e#32519#32531#0" expanded="true" />
-            <element signature="e#32728#32740#0" expanded="true" />
-            <element signature="e#32941#33069#0" expanded="true" />
-            <element signature="e#33157#33159#0" expanded="true" />
-            <element signature="e#33308#33426#0" expanded="true" />
-            <element signature="e#33447#33449#0" expanded="true" />
-            <element signature="e#33562#33564#0" expanded="true" />
-            <element signature="e#33692#33694#0" expanded="true" />
-            <element signature="e#33847#33967#0" expanded="true" />
-            <element signature="e#33989#33991#0" expanded="true" />
-            <element signature="e#34110#34112#0" expanded="true" />
-            <element signature="e#34353#34361#0" expanded="true" />
-            <element signature="e#34547#34555#0" expanded="true" />
-            <element signature="e#34787#34795#0" expanded="true" />
-            <element signature="e#35032#35034#0" expanded="true" />
-            <element signature="e#35131#35133#0" expanded="true" />
-            <element signature="e#35232#35234#0" expanded="true" />
-            <element signature="e#35343#35345#0" expanded="true" />
-            <element signature="e#35460#35462#0" expanded="true" />
-            <element signature="e#35579#35581#0" expanded="true" />
-            <element signature="e#35709#35711#0" expanded="true" />
-            <element signature="e#35807#35809#0" expanded="true" />
-            <element signature="e#35904#35906#0" expanded="true" />
-            <element signature="e#36015#36017#0" expanded="true" />
-            <element signature="e#36131#36133#0" expanded="true" />
-            <element signature="e#36247#36249#0" expanded="true" />
-            <element signature="e#36350#36352#0" expanded="true" />
-            <element signature="e#36457#36469#0" expanded="true" />
-            <element signature="e#36516#36528#0" expanded="true" />
-            <element signature="e#36755#36779#0" expanded="true" />
-            <element signature="e#37056#37233#0" expanded="true" />
-            <element signature="e#37281#37305#0" expanded="true" />
-            <element signature="e#37769#38390#0" expanded="true" />
-            <element signature="e#38942#39407#0" expanded="true" />
-            <element signature="e#39545#40660#0" expanded="true" />
-            <element signature="e#40802#41531#0" expanded="true" />
-            <element signature="e#41928#41940#0" expanded="true" />
-            <element signature="e#42241#42336#0" expanded="true" />
-            <element signature="e#42357#42373#0" expanded="true" />
-            <element signature="e#42563#42583#0" expanded="true" />
-            <element signature="e#42996#43008#0" expanded="true" />
-            <element signature="e#43267#43287#0" expanded="true" />
-            <element signature="e#43556#47235#0" expanded="true" />
-            <element signature="e#47302#47322#0" expanded="true" />
-            <element signature="e#47390#47725#0" expanded="true" />
-            <element signature="e#48562#48592#0" expanded="true" />
-            <element signature="e#49237#49252#0" expanded="true" />
-            <element signature="e#49778#49808#0" expanded="true" />
-            <element signature="e#49929#49941#0" expanded="true" />
-            <element signature="e#50066#50078#0" expanded="true" />
-            <element signature="e#50204#50216#0" expanded="true" />
-            <element signature="e#50341#50353#0" expanded="true" />
-            <element signature="e#50480#50510#0" expanded="true" />
-            <element signature="e#50629#50641#0" expanded="true" />
-            <element signature="e#50769#50781#0" expanded="true" />
-            <element signature="e#50910#50922#0" expanded="true" />
-            <element signature="e#51050#51062#0" expanded="true" />
-            <element signature="e#51192#51207#0" expanded="true" />
-            <element signature="e#51332#51347#0" expanded="true" />
-            <element signature="e#51667#51682#0" expanded="true" />
-            <element signature="e#52005#52020#0" expanded="true" />
-            <element signature="e#52204#52219#0" expanded="true" />
-            <element signature="e#52403#52418#0" expanded="true" />
-            <element signature="e#52605#52620#0" expanded="true" />
-            <element signature="e#52987#52999#0" expanded="true" />
-            <element signature="e#53151#53163#0" expanded="true" />
-            <element signature="e#53446#53466#0" expanded="true" />
-            <element signature="e#57602#57614#0" expanded="true" />
-            <element signature="e#58438#58455#0" expanded="true" />
-            <element signature="e#59063#59075#0" expanded="true" />
-            <element signature="e#59466#59478#0" expanded="true" />
-            <element signature="e#60196#60208#0" expanded="true" />
-            <element signature="e#60362#60390#0" expanded="true" />
-            <element signature="e#60766#60854#0" expanded="true" />
-            <element signature="e#60947#61184#0" expanded="true" />
-            <element signature="e#70753#70771#0" expanded="true" />
-            <element signature="e#71889#71906#0" expanded="true" />
-            <element signature="e#73584#73718#0" expanded="true" />
-            <element signature="e#73727#73747#0" expanded="true" />
-            <element signature="e#74428#74440#0" expanded="true" />
-            <element signature="e#75287#75299#0" expanded="true" />
-            <element signature="e#76926#77021#0" expanded="true" />
-            <element signature="e#77332#77427#0" expanded="true" />
-            <element signature="e#77547#77642#0" expanded="true" />
-            <element signature="e#77866#77961#0" expanded="true" />
-            <element signature="e#78119#78214#0" expanded="true" />
-            <element signature="e#78373#78468#0" expanded="true" />
-            <element signature="e#78627#78722#0" expanded="true" />
-            <element signature="e#78910#79005#0" expanded="true" />
-            <element signature="e#79193#79288#0" expanded="true" />
-            <element signature="e#79476#79571#0" expanded="true" />
-            <element signature="e#79759#79854#0" expanded="true" />
-            <element signature="e#80093#80188#0" expanded="true" />
-            <element signature="e#80421#80516#0" expanded="true" />
-            <element signature="e#81074#81076#0" expanded="true" />
-            <element signature="e#81284#81301#0" expanded="true" />
-            <element signature="e#82291#82308#0" expanded="true" />
-            <element signature="e#82417#82432#0" expanded="true" />
-            <element signature="e#82472#82487#0" expanded="true" />
-            <element signature="e#82527#82542#0" expanded="true" />
-            <element signature="e#83107#83198#0" expanded="true" />
-            <element signature="e#83227#83245#0" expanded="true" />
-            <element signature="e#83384#83399#0" expanded="true" />
-            <element signature="e#83534#83566#0" expanded="true" />
-            <element signature="e#83595#83607#0" expanded="true" />
-            <element signature="e#83924#83939#0" expanded="true" />
-            <element signature="e#85211#85226#0" expanded="true" />
-            <element signature="e#86498#86513#0" expanded="true" />
-            <element signature="e#87071#87083#0" expanded="true" />
-            <element signature="e#87267#87279#0" expanded="true" />
-            <element signature="e#87463#87475#0" expanded="true" />
-            <element signature="e#87812#87834#0" expanded="true" />
-            <element signature="e#89241#89262#0" expanded="true" />
-            <element signature="e#89495#89507#0" expanded="true" />
-            <element signature="e#90507#90519#0" expanded="true" />
-            <element signature="e#93973#94009#0" expanded="true" />
-            <element signature="e#94390#94426#0" expanded="true" />
-            <element signature="e#94790#94802#0" expanded="true" />
-            <element signature="e#95514#95526#0" expanded="true" />
-            <element signature="e#96700#96712#0" expanded="true" />
-            <element signature="e#97825#97837#0" expanded="true" />
-            <element signature="e#99803#99815#0" expanded="true" />
-            <element signature="e#99986#99998#0" expanded="true" />
-            <element signature="e#100176#100188#0" expanded="true" />
-            <element signature="e#100353#100365#0" expanded="true" />
-            <element signature="e#100641#100675#0" expanded="true" />
-            <element signature="e#101719#101753#0" expanded="true" />
-            <element signature="e#104833#104846#0" expanded="true" />
-            <element signature="e#104997#105060#0" expanded="true" />
-            <element signature="e#105719#105736#0" expanded="true" />
-            <element signature="e#105932#105962#0" expanded="true" />
-            <element signature="e#106146#106158#0" expanded="true" />
-            <element signature="e#106313#106325#0" expanded="true" />
-            <element signature="e#106626#106638#0" expanded="true" />
-            <element signature="e#106987#106999#0" expanded="true" />
-            <element signature="e#107516#107528#0" expanded="true" />
-            <element signature="e#107745#107757#0" expanded="true" />
-            <element signature="e#108421#108433#0" expanded="true" />
-            <element signature="e#109022#109034#0" expanded="true" />
-            <element signature="e#109095#109107#0" expanded="true" />
-            <element signature="e#109204#109206#0" expanded="true" />
-            <element signature="e#109267#109279#0" expanded="true" />
-            <element signature="e#109477#109489#0" expanded="true" />
-            <element signature="e#109777#109789#0" expanded="true" />
-            <element signature="e#109970#109982#0" expanded="true" />
-            <element signature="e#110184#110196#0" expanded="true" />
-            <element signature="e#110364#110376#0" expanded="true" />
-            <element signature="e#110515#110531#0" expanded="true" />
-            <element signature="e#110779#110791#0" expanded="true" />
-            <element signature="e#111142#111154#0" expanded="true" />
-            <element signature="e#111463#111491#0" expanded="true" />
-            <element signature="e#112199#112227#0" expanded="true" />
-            <element signature="e#112582#112594#0" expanded="true" />
-            <element signature="e#112824#112852#0" expanded="true" />
-            <element signature="e#113068#113108#0" expanded="true" />
-            <element signature="e#113425#113437#0" expanded="true" />
-            <element signature="e#114671#114688#0" expanded="true" />
-            <element signature="e#114743#114816#0" expanded="true" />
-            <element signature="e#116654#116682#0" expanded="true" />
-            <element signature="e#116928#124072#0" expanded="true" />
-            <element signature="e#124121#166986#0" expanded="true" />
-            <element signature="e#167049#462962#0" expanded="true" />
-            <element signature="e#462996#463801#0" expanded="true" />
-            <element signature="e#463885#463911#0" expanded="true" />
-            <element signature="e#464081#469485#0" expanded="true" />
-            <element signature="e#474577#479979#0" expanded="true" />
-            <element signature="e#480079#480218#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/010-TestCase.cpp">
+    <entry file="file://$PROJECT_DIR$/LinkedList.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/4.8/bits/basic_string.h">
+    <entry file="file://$PROJECT_DIR$/Node.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="2520" selection-start-line="2520" selection-end-line="2520" />
+        <state relative-caret-position="855">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Node.h">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SurveyClass.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="180">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurveyClass.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acutest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4680">
+          <caret line="312" column="0" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
           <folding>
-            <element signature="e#63#86#0" expanded="true" />
+            <marker date="1539699097671" expanded="true" signature="17728:17841" ph="/.../" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurveyClass.test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -736,86 +706,129 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding>
-            <element signature="e#43#62#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList.test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2655">
+          <caret line="177" column="40" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catch.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17580">
+          <caret line="1172" column="44" selection-start-line="1172" selection-start-column="44" selection-end-line="1172" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/010-TestCase.cpp" />
+    <entry file="file:///usr/include/c++/4.8/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="2520" column="0" selection-start-line="2520" selection-start-column="0" selection-end-line="2520" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurveyClass.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="135">
           <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acutest.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="312" selection-start-line="312" selection-end-line="312" />
+        <state relative-caret-position="4680">
+          <caret line="312" column="0" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
           <folding>
-            <element signature="e#4251#4270#0" expanded="true" />
-            <element signature="e#4441#4459#0" expanded="true" />
-            <element signature="e#4610#4628#0" expanded="true" />
-            <element signature="e#4725#4799#0" expanded="true" />
-            <element signature="e#7144#8154#0" expanded="true" />
-            <element signature="e#9041#9367#0" expanded="true" />
-            <element signature="e#17596#18814#0" expanded="true" />
-            <element signature="e#19092#19446#0" expanded="true" />
-            <element signature="e#22273#22438#0" expanded="true" />
-            <element signature="e#25079#25132#0" expanded="true" />
-            <element signature="e#25602#25661#0" expanded="true" />
+            <marker date="1539699097671" expanded="true" signature="17728:17841" ph="/.../" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Node.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="780">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList.test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="2655">
           <caret line="177" column="40" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#173#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SurveyClass.test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="107" column="70" selection-start-line="107" selection-start-column="70" selection-end-line="107" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="570">
+          <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SurveyClass.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1065">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

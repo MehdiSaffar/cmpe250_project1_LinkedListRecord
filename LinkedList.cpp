@@ -26,6 +26,8 @@ LinkedList::LinkedList(const LinkedList &list) {
 }
 
 LinkedList &LinkedList::operator=(const LinkedList &list) {
+    if(this == &list) return *this;
+
     this->length = list.length;
     if (list.length == 0) {
         // do nothing

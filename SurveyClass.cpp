@@ -1,5 +1,4 @@
 #include "SurveyClass.h"
-#include <limits>
 
 SurveyClass::SurveyClass() {
     this->members = new LinkedList;
@@ -10,7 +9,12 @@ SurveyClass::SurveyClass(const SurveyClass &other) {
 }
 
 SurveyClass &SurveyClass::operator=(const SurveyClass &list) {
+    if (this == &list) return *this;
+    
+    // delete if existing already
+    delete this->members;
     this->members = new LinkedList((*list.members));
+    
     return *this;
 }
 
@@ -32,10 +36,10 @@ void SurveyClass::handleNewRecord(string _name, float _amount) {
 }
 
 float SurveyClass::calculateMinimumExpense() {
-    if(members->length == 0) return 0.0f;
-    float min = numeric_limits<float>::max();
-    Node* head = members->head;
-    while(head != nullptr){
+    if (members->length == 0) return 0.0f;
+    float min = members->head->amount;
+    Node *head = members->head;
+    while (head != nullptr) {
         min = min > head->amount ? head->amount : min;
         head = head->next;
     }
@@ -43,10 +47,10 @@ float SurveyClass::calculateMinimumExpense() {
 }
 
 float SurveyClass::calculateMaximumExpense() {
-    if(members->length == 0) return 0.0f;
-    float max = -numeric_limits<float>::max();
-    Node* head = members->head;
-    while(head != nullptr){
+    if (members->length == 0) return 0.0f;
+    float max = members->head->amount;
+    Node *head = members->head;
+    while (head != nullptr) {
         max = max < head->amount ? head->amount : max;
         head = head->next;
     }
@@ -54,11 +58,11 @@ float SurveyClass::calculateMaximumExpense() {
 }
 
 float SurveyClass::calculateAverageExpense() {
-    if(members->length == 0) return 0.0f;
+    if (members->length == 0) return 0.0f;
 
     float sum = 0.0f;
-    Node* head = members->head;
-    while(head != nullptr) {
+    Node *head = members->head;
+    while (head != nullptr) {
         sum += head->amount;
         head = head->next;
     }
