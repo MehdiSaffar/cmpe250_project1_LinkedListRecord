@@ -1,5 +1,9 @@
 #include "SurveyClass.h"
 
+float _round(const float& x) {
+    return ((int) (x * 100.0f)) / 100.0f;
+}
+
 SurveyClass::SurveyClass() {
     this->members = new LinkedList;
 }
@@ -32,7 +36,7 @@ SurveyClass::~SurveyClass() {
 }
 
 void SurveyClass::handleNewRecord(string _name, float _amount) {
-    members->pushTail(std::move(_name), _amount);
+    members->updateNode(std::move(_name), _amount);
 }
 
 float SurveyClass::calculateMinimumExpense() {
@@ -43,8 +47,10 @@ float SurveyClass::calculateMinimumExpense() {
         min = min > head->amount ? head->amount : min;
         head = head->next;
     }
+    min = _round(min);
     return min;
 }
+
 
 float SurveyClass::calculateMaximumExpense() {
     if (members->length == 0) return 0.0f;
@@ -54,6 +60,7 @@ float SurveyClass::calculateMaximumExpense() {
         max = max < head->amount ? head->amount : max;
         head = head->next;
     }
+    max = _round(max);
     return max;
 }
 
@@ -67,5 +74,6 @@ float SurveyClass::calculateAverageExpense() {
         head = head->next;
     }
     sum /= (float) members->length;
+    sum = _round(sum);
     return sum;
 }

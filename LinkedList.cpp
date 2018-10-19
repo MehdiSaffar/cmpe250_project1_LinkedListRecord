@@ -67,17 +67,14 @@ void LinkedList::pushTail(string _name, float _amount) {
         return;
     }
 
-    auto lastNode = &(this->head);
-    while ((*lastNode) != nullptr) {
-        lastNode = &((*lastNode)->next);
-    }
-    (*lastNode) = new Node(_name, _amount);
-    this->tail = *lastNode;
+    this->tail->next = new Node(_name, _amount);
+    this->tail = this->tail->next;
 }
 
 void LinkedList::updateNode(string _name, float _amount) {
     // do nothing if empty list
     if (this->head == nullptr) {
+        pushTail(_name, _amount);
         return;
     }
 
@@ -87,10 +84,11 @@ void LinkedList::updateNode(string _name, float _amount) {
     }
 
     if ((*node) == nullptr) {
-        return;
+        pushTail(_name, _amount);
+    } else {
+        (*node)->amount = _amount;
     }
 
-    (*node)->amount = _amount;
 }
 
 

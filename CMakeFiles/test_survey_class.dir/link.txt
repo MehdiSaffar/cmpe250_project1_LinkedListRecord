@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++11   CMakeFiles/test_survey_class.dir/Node.cpp.o CMakeFiles/test_survey_class.dir/LinkedList.cpp.o CMakeFiles/test_survey_class.dir/SurveyClass.cpp.o CMakeFiles/test_survey_class.dir/SurveyClass.test.cpp.o  -o test_survey_class 
