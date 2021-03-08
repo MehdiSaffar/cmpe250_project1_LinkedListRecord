@@ -2,7 +2,7 @@
 
 
 ## Description
-Implementing a C+= program  for generating the statistics on the expense records of a group of people. The expense records
+Implementing a C++ program for generating the statistics on the expense records of a group of people. The expense records
 will be provided in the input file. The program reads the input file
 and stores the valuable information in the records in a LinkedList. As a final
 step, the program calculates the expected statistics over the LinkedList.
